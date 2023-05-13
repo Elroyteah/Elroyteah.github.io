@@ -94,6 +94,7 @@ body{
 
 #main{
 	width: 1400px;
+	overflow: auto;
 }
 
 #main p{

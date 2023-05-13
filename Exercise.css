@@ -95,15 +95,17 @@ body{
 	width: 1000px;
 	background-color: white;
 	margin: 0px 200px 0px 200px;
+	overflow: auto;
 }
  
-#main img{
+#main img, iframe,h2{
 	padding-left: 170px;
 }
 
 #main p{
 	width: 640px;
 	padding-left: 170px;
+	font-size: 20px;
 }
 
 #footer{

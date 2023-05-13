@@ -94,11 +94,19 @@ body{
 
 #main{
 	width: 1400px;
+	overflow: auto;
+}
+#main img{
+	padding-left: 293px;
+}
+#main h2{
+	text-shadow: 3px 2px 5px rgba(0,0,0,0.5);
+	text-align: center;
 }
 
 #main p{
 	font-size: 20px;
-	float: left;
+	text-align: center;
 }
 
 #footer{
