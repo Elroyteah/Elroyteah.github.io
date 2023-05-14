@@ -95,19 +95,18 @@ body{
 #main{
 	width: 100%;
 	overflow: auto;
+	text-align: center;
 }
 #main img{
-	padding-left: 22%;
+	width: 40%;
 }
 #main h2{
 	font-size: 200%;
 	text-shadow: 3px 2px 5px rgba(0,0,0,0.5);
-	text-align: center;
 }
 
 #main p{
 	font-size: 120%;
-	text-align: center;
 }
 
 #footer{
