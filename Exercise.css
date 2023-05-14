@@ -7,19 +7,20 @@ body{
 	background-color: #00B6FF;
 	color: white;
 	text-align: center;
-	padding: 5px;
+	padding: 0.1em;
 }
 
 #container{
-	background-color: grey;
-	width: 1400px;
+	background-color: white;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .nav{
-	width: 1400px;
+	width: 100%;
 	float: left;
+	overflow: hidden;
 	background-color: black;
 }
 
@@ -27,9 +28,9 @@ body{
 	float: left;
 	color: #F2F2F2;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 0.8em 1em;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 1em;
 	color: white;
 }
 
@@ -92,25 +93,23 @@ body{
 }
 
 #main{
-	width: 1000px;
+	width: 100%;
 	background-color: white;
-	margin: 0px 200px 0px 200px;
+	text-align: center;
 	overflow: auto;
 }
  
-#main img, iframe,h2{
-	padding-left: 170px;
+#main img{
+	width: 80%;
 }
 
 #main p{
-	width: 640px;
-	padding-left: 170px;
-	font-size: 20px;
+	font-size: 1em;
 }
 
 #footer{
 	clear: both;
-	padding: 10px;
+	padding: 0.5em;
 	background-color: #999999;
 	color: white;
 	text-align: right;
