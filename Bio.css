@@ -97,9 +97,17 @@ body{
 	overflow: auto;
 }
 
+#main img{
+	margin: 1em;
+	border: 0.2em solid black;
+	width: 20%;
+	float: left;
+	border-radius: 2em;
+}
+
 #main p{
 	font-size: 1em;
-	float: left;
+	text-align: left;
 }
 
 #footer{

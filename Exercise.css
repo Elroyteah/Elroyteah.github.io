@@ -107,6 +107,11 @@ body{
 	font-size: 1em;
 }
 
+#main iframe{
+	width: 560;
+	height: 315;
+}
+
 #footer{
 	clear: both;
 	padding: 0.5em;
