@@ -65,17 +65,83 @@
 					<p>2) RGB led to control the state of the lock, eg. green for unlock, red for lock</p>
 					<p>3) LDR to control the leds in the box</p>
 					<img src ="Final project/2.png">
-					<p><a href="https://www.makerguides.com/how-to-use-a-keypad-with-arduino-for-password-security/">Click here for how I learned the basic coding of a matrix keypad</a></p>
-					<p><a href="https://arduinogetstarted.com/tutorials/arduino-keypad">Click here for what I used as a reference to code my matrix keypad for my final project</a></p>
-					<h2>TinkerCAD design</h2>
+					<h2>TinkerCAD design (draft)</h2>
 					<p>Functions of keypad: press '#' to confirm password input, press '*' to clear password input</p>
 					<p>Correct password: Press '1234' followed by '#' to turn motor and led turns green</p>
 					<p>Reset button: Press 'B' followed by '#' to reset motor and led turns blue</p>
 					<p>Wrong password: Press any combination of buttons followed by '#' and the motor would not move and led turn red</p>
-					<p>Misclick: If wrong button combination is inserted, press '*' to clear the input numbers and re-enter the correct password</p> 
+					<p>Clear input: If wrong button combination is inserted, press '*' to clear the input numbers and re-enter the correct password</p> 
 					<p>LDR system: When there is light, ie. the user open the box, the LED will light up to show content</p>
+					<p><a href="https://www.makerguides.com/how-to-use-a-keypad-with-arduino-for-password-security/">makerguides.com | keypad with password</a></p>
+					<p><a href="https://arduinogetstarted.com/tutorials/arduino-keypad">arduinogetstarted.com | arduino keypad</a></p>					
 					<iframe src="https://www.tinkercad.com/embed/fVsSmxzHgQB?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-					
+					<h2>Final tinkerCAD design</h2>
+					<p>I decided to modify the design for a better user experience</p>
+					<p>I removed the LDR and replaced it with a LCD screen to show instructions</p>
+					<iframe src="https://www.tinkercad.com/embed/1N6S2kSXYto?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+					<h2>List of materials</h2>
+					<table>
+					  <tr>
+						<th>Components</th>
+						<th>Cost</th>
+					  </tr>
+					  <tr>
+						<td>Arduino board</td>
+						<td>$33</td>
+					  </tr>
+					  <tr>
+						<td>Matrix keypad</td>
+						<td>$1.50</td>
+					  </tr>
+					  <tr>
+						<td>LCD screen</td>
+						<td>$5</td>
+					  </tr>
+					  <tr>
+						<td>RBG led</td>
+						<td>$0.20</td>
+					  </tr>
+					  <tr>
+						<td>Servo motor</td>
+						<td>$3</td>
+					  </tr>
+					  <tr>
+						<td>Sliding lock</td>
+						<td>$3</td>
+					  </tr>
+					  <tr>
+						<td>Hinges</td>
+						<td>$2</td>
+					  </tr>
+					  <tr>
+						<td>3mm Acrylic/Plywood</td>
+						<td>Depending on model size</td>
+					  </tr>
+					   <tr>
+						<td>Total</td>
+						<td>$47.70++</td>
+					  </tr>
+					</table>
+					<hr/>
+					<h2>Fusion 360 design</h2>
+					<iframe src="https://ichat3155.autodesk360.com/shares/public/SHd38bfQT1fb47330c99db27e2cfe4d08ce1?mode=embed" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+					<h2>Laser cutting</h2>
+					<p>Create sketch of each component and export them as DXF</p>
+					<img src ="Final project/3.png">
+					<img src ="Final project/9.png">
+					<h2>3D printing</h2>
+					<p>3D printing of handle and keypad holder</p>
+					<img src ="Final project/8.png">
+					<h2>Locking mechanism</h2>
+					<p>When the correct password is pressed, the servo motor will turn and push or pull the lock</p>
+					<p>A support is also 3D printed to prevent the lock from locking itself</p>
+					<img src ="Final project/10.png">
+					<h2>Arduino Code</h2>
+					<iframe src=https://create.arduino.cc/editor/elroyteah/8b968004-cdff-4ce6-94da-9024bf868cd9/preview?embed style="height:700px;width:80%;margin:10px 0" frameborder=0></iframe>
+					<h2>Poster</h2>
+					<img src ="Final project/11.png">
+					<h2>Youtube video</h2>
+					<iframe src="https://www.youtube.com/embed/zy_0mIOZK_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div id="footer">
